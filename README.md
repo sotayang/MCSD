@@ -10,6 +10,7 @@
 This is the **code repository** of the paper "Multi-View Captioning with Semantic Delta Re-Ranking for Zero-Shot Composed Video Retrieval", which aims to provide a comprehensive overview of MCSD.
 
 ## News 🚀🚀🚀
+- `2025.11.01`: 🏆 Congratulations to us for winning the **Best Paper Award** at ICIG 2025! Thank you all for your support. Stay tuned!!!
 - `2025.10.22`: 🎉 We've open-sourced [MCSD](https://github.com/yzy-bupt/MCSD)! Get started with composed video retrieval today!
 - `2025.08.08`: 📢 Great news! Our paper has been accepted as an **oral presentation at ICIG 2025**. Check out our work and project!
 
