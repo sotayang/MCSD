@@ -10,11 +10,6 @@ import re
 import csv
 import glob
 import pandas as pd
-sys.path.append('/hetu_group/liuchangyi/mllm/code/atomCaption/caption/')
-sys.path.insert(0, "/hetu_group/huyifei/work_dir/archive/tools/apis/gpt_4v_api")
-sys.path.insert(0, "/hetu_group/chenjiankang/research")
-sys.path.append('/mllm_hdd/liuchangyi/yewu/zhengyixing/kwaistar/')
-sys.path.append('/hetu_group/jky/LongChain/tools/pkgs')
 from utils import mkdir, check_fin, get_alre, ROOT_DIR, is_contains_chinese
 # from gpt_4v_api import GPT_4v
 from mmu_chat_gpt_pb2 import MmuChatGptRequest,MmuChatGptResponse
@@ -78,11 +73,6 @@ def openai_api(image_paths, prompt, max_cycle=4,system_content=None):
 
             biz = "linhezheng_3a18b4c3_gpt-4o-2024-05-13"
             bizs = [
-                "xiaohuihui_64104cf2_gpt-4o-2024-05-13"
-            ,"wenbin_93bc5129_gpt-4o-2024-05-13"
-            ,"linhezheng_3a18b4c3_gpt-4o-2024-05-13"
-            # ,"chenkaibing_XX_gpt-4o-2024-05-13"
-            # ,"fandewen_fc5b5039_gpt-4o-2024-05-13"
             ]
             biz = random.choice(bizs)
             request = MmuChatGptRequest(biz=biz)
