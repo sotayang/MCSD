@@ -60,6 +60,15 @@ To address these issues, we propose Multi-View Captioning with Semantic Delta Re
 
 
 ## Citation
-```
-TBC
+If you find our work useful, please consider citing our work!
+
+```BibTeX
+@inproceedings{ding2025multi,
+  title={Multi-view Captioning with Semantic Delta Re-ranking for Zero-Shot Composed Video Retrieval},
+  author={Ding, Zhixiang and Liu, Lilong and Yang, Zhenyu and Qian, Shengsheng},
+  booktitle={International Conference on Image and Graphics},
+  pages={80--91},
+  year={2025},
+  organization={Springer}
+}
 ```
