@@ -2,7 +2,7 @@
 
 # **Multi-View Captioning with Semantic Delta Re-Ranking for Zero-Shot Composed Video Retrieval**
 
-[\[🚀 Project Homepage\]](https://yzy-bupt.github.io/MCSD/) [\[📖 Paper\]](https://www.springerprofessional.de/en/multi-view-captioning-with-semantic-delta-re-ranking-for-zero-sh/51648836)
+[\[🚀 Project Homepage\]](https://sotayang.github.io/MCSD/) [\[📖 Paper\]](https://link.springer.com/chapter/10.1007/978-981-95-3393-0_7)
 
 </div>
 
@@ -105,5 +105,12 @@ python code/retrieval_egocvr_global.py
 If you find our data useful, please consider citing our work!
 
 ```BibTeX
-TBC
+@inproceedings{ding2025multi,
+  title={Multi-view Captioning with Semantic Delta Re-ranking for Zero-Shot Composed Video Retrieval},
+  author={Ding, Zhixiang and Liu, Lilong and Yang, Zhenyu and Qian, Shengsheng},
+  booktitle={International Conference on Image and Graphics},
+  pages={80--91},
+  year={2025},
+  organization={Springer}
+}
 ```
